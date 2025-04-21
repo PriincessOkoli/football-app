@@ -1,0 +1,41 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  padding: 30px;
+}
+.field {
+  width: 400px;
+  height: 250px;
+  border: 10px solid rgb(20, 149, 54);
+  background-color: #0400ff;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ball {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  transition: all 1s;
+}
+.post {
+  position: absolute;
+  left: -35px;
+  top: 45%;
+  width: 120px;
+  transform: rotate(270deg);
+  height: 80px;
+}
+.score{
+    text-align: center;
+    margin: 20px;
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
