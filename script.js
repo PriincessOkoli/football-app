@@ -50,3 +50,4 @@ field.onclick = function (event) {
     updateScore();
   }
 };
+

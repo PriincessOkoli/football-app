@@ -39,3 +39,16 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
 }
+@media (width <= 760px) {
+  .field {
+    width: 320px;
+  }
+  .ball {
+    width: 30px;
+    height: 30px;
+  }
+  .post {
+    left: -37px;
+    top: 40%;
+  }
+}
